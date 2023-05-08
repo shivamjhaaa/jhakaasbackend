@@ -1,0 +1,14 @@
+    "bcrypt":  -- For bcrypting password of user while stroing in db
+    "cloudinary -- For uploading poster,thumbnail of video,avatar 
+    "cookie-parser" -- to access cookies from cookie.parser
+    "cors": -- For cross origin fetching
+    "datauri": -- to get url of file 
+    "dotenv": -- for env variables in out config (secrets)
+    "express": -- helping
+    "jsonwebtoken -- making web token for login with help of these
+    "mongoose": -- to interact with monngo db
+    "multer": -- middleware to get access of file with help of request.file
+    "node-cron" -- after a fixed time a function should call 
+    "nodemailer" -- to send mail 
+    "razorpay": -- for payment integration
+    "validator" -- verify emails
