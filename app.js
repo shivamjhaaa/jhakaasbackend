@@ -34,6 +34,10 @@ app.use('/api/v1',user);
 app.use('/api/v1',payment);
 app.use('/api/v1',other);
 
+app.get('/',(req,res)=>{
+    res.send(`<h1>Server is Working Fine. Visit <a href='${process.env.FRONTEND_URL}'>Jhakaas</a>`);
+});
+
 export default app;
 
 app.use(ErrorMiddleware); 
